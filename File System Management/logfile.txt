@@ -1,0 +1,167 @@
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 22:38:12 2016:There was an attempt to create a file ->:f1:4:(null)
+2:Sat Dec 10 22:38:15 2016:There was an attempt to create a file ->:c:31:(null)
+3:Sat Dec 10 22:38:15 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 22:39:55 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 22:40:41 2016:filesystem was force closed: :(null):(null):(null)
+Filesystem opened: os_filesystem 
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 22:41:37 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 22:41:58 2016:There was an attempt to remove file->:c:(null):(null)
+2:Sat Dec 10 22:42:01 2016:There was an attempt to create a file ->:f2:10:(null)
+3:Sat Dec 10 22:42:04 2016:There was an attempt to create a file ->:f4:100:(null)
+4:Sat Dec 10 22:42:08 2016:There was an attempt to remove file->:f4:(null):(null)
+5:Sat Dec 10 22:42:15 2016:There was an attempt to create a file ->:f3:200:(null)
+6:Sat Dec 10 22:42:21 2016:There was an attempt to create a file ->:f4:1000:(null)
+7:Sat Dec 10 22:42:26 2016:There was an attempt to create a file ->:f5:2000:(null)
+8:Sat Dec 10 22:42:32 2016:There was an attempt to create a file ->:f6:3000:(null)
+9:Sat Dec 10 22:42:43 2016:There was an attempt to create a file ->:f7:5000:(null)
+10:Sat Dec 10 22:42:52 2016:There was an attempt to make a directory ->:d1:(null):(null)
+11:Sat Dec 10 22:42:54 2016:There was an attempt to make a directory ->:d2:(null):(null)
+12:Sat Dec 10 22:43:01 2016:There was an attempt to create a LINK(arg_1), with NAME(arg_2):f1:L1:(null)
+13:Sat Dec 10 22:43:07 2016:There was an attempt to create a LINK(arg_1), with NAME(arg_2):f4:L2:(null)
+14:Sat Dec 10 22:43:50 2016:There was an attempt to access file ->:f1:(null):(null)
+15:Sat Dec 10 22:44:00 2016:There was an attempt to write to a file named -> :f1:0:AAB
+16:Sat Dec 10 22:44:09 2016:There was an attempt to access statistics of file ->:f1:(null):(null)
+17:Sat Dec 10 22:44:15 2016:There was an attempt to change directory to ->:d1:(null):(null)
+18:Sat Dec 10 22:44:20 2016:There was an attempt to create a file ->:d1f1:100:(null)
+19:Sat Dec 10 22:44:23 2016:There was an attempt to create a file ->:d1f2:400:(null)
+20:Sat Dec 10 22:44:31 2016:There was an attempt to create a file ->:d1f3:7000:(null)
+21:Sat Dec 10 22:44:33 2016:There was an attempt to change directory to ->:..:(null):(null)
+22:Sat Dec 10 22:44:37 2016:There was an attempt to change directory to ->:d2:(null):(null)
+23:Sat Dec 10 22:44:44 2016:There was an attempt to create a file ->:d2f1:60000:(null)
+24:Sat Dec 10 22:44:51 2016:There was an attempt to create a file ->:d2f1:9000:(null)
+25:Sat Dec 10 22:44:54 2016:There was an attempt to change directory to ->:..:(null):(null)
+26:Sat Dec 10 22:44:56 2016:There was an attempt to change directory to ->:d1:(null):(null)
+27:Sat Dec 10 22:44:58 2016:There was an attempt to change directory to ->:..:(null):(null)
+28:Sat Dec 10 22:45:10 2016:There was an attempt to access file ->:L2:(null):(null)
+29:Sat Dec 10 22:45:15 2016:There was an attempt to write to a file named -> :L2:0:11
+30:Sat Dec 10 22:45:34 2016:There was an attempt to remove directory->:d:(null):(null)
+31:Sat Dec 10 22:45:36 2016:There was an attempt to remove directory->:d2:(null):(null)
+32:Sat Dec 10 22:45:39 2016:There was an attempt to change directory to ->:d2:(null):(null)
+33:Sat Dec 10 22:45:42 2016:There was an attempt to remove file->:d2f1:(null):(null)
+34:Sat Dec 10 22:45:44 2016:There was an attempt to change directory to ->:..:(null):(null)
+35:Sat Dec 10 22:45:46 2016:There was an attempt to remove directory->:d2:(null):(null)
+36:Sat Dec 10 22:46:03 2016:There was an attempt to create a LINK(arg_1), with NAME(arg_2):d1:L3:(null)
+37:Sat Dec 10 22:46:03 2016:filesystem was force closed: :(null):(null):(null)
+Filesystem opened: 21 
+1:Sat Dec 10 22:49:34 2016:There was an attempt to create a file ->:sixth:5000:(null)
+2:Sat Dec 10 22:49:36 2016:There was an attempt to access statistics of file ->:sixth:(null):(null)
+3:Sat Dec 10 22:49:36 2016:filesystem was force closed: :(null):(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 22:50:39 2016:There was an attempt to access disk usage utility:(null):(null):(null)
+2:Sat Dec 10 22:50:39 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 23:05:16 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 23:05:38 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 23:05:40 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: os_filesystem 
+1:Sat Dec 10 23:07:30 2016:filesystem succesfully closed: :os_filesystem:(null):(null)
+Filesystem opened: new 
+1:Sun Dec 11 03:14:55 2016:There was an attempt to create a file ->:f1:22:(null)
+2:Sun Dec 11 03:14:59 2016:There was an attempt to create a file ->:f2:66:(null)
+3:Sun Dec 11 03:15:01 2016:There was an attempt to copy a file from source to dest.:::(null)
+4:Sun Dec 11 03:16:24 2016:filesystem succesfully closed: :new:(null):(null)
+Filesystem opened: new 
+1:Sun Dec 11 03:16:27 2016:filesystem succesfully closed: :new:(null):(null)
+Filesystem opened: new 
+1:Sun Dec 11 03:16:49 2016:There was an attempt to copy a file from source to dest.:f4:f2:(null)
+2:Sun Dec 11 03:16:53 2016:There was an attempt to copy a file from source to dest.:f2:f4:(null)
+Filesystem opened: new 
+1:Sun Dec 11 03:18:42 2016:There was an attempt to copy a file from source to dest.:::(null)
+2:Sun Dec 11 03:18:42 2016:filesystem succesfully closed: :new:(null):(null)
+Filesystem opened: new 
+1:Sun Dec 11 03:19:00 2016:There was an attempt to copy a file from source to dest.:::(null)
+2:Sun Dec 11 03:19:15 2016:There was an attempt to copy a file from source to dest.:1::(null)
+3:Sun Dec 11 03:19:16 2016:There was an attempt to copy a file from source to dest.:1:2:(null)
+4:Sun Dec 11 03:19:26 2016:There was an attempt to LINK a file from source to LINK.:f1:newLink:(null)
+5:Sun Dec 11 03:19:30 2016:There was an attempt to access file ->:newLink:(null):(null)
+6:Sun Dec 11 03:19:34 2016:There was an attempt to access file ->:f1:(null):(null)
+7:Sun Dec 11 03:19:34 2016:filesystem succesfully closed: :new:(null):(null)
+Filesystem opened: new 
+1:Sun Dec 11 03:23:06 2016:There was an attempt to copy a file from source to dest.:f1:f2:(null)
+2:Sun Dec 11 03:23:11 2016:There was an attempt to copy a file from source to dest.:f1:f4:(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:31:02 2016:There was an attempt to create a file ->:f1:34:(null)
+2:Sun Dec 11 03:31:04 2016:There was an attempt to create a file ->:f2:452:(null)
+3:Sun Dec 11 03:31:11 2016:There was an attempt to LINK a file from source to LINK.:f1:NewLINK:(null)
+4:Sun Dec 11 03:31:11 2016:filesystem succesfully closed: :os_fs_project:(null):(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:31:17 2016:There was an attempt to make a directory ->:d1:(null):(null)
+2:Sun Dec 11 03:31:18 2016:There was an attempt to make a directory ->:d2:(null):(null)
+3:Sun Dec 11 03:31:21 2016:filesystem succesfully closed: :os_fs_project:(null):(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:31:30 2016:There was an attempt to copy a file from source to dest.:::(null)
+2:Sun Dec 11 03:31:33 2016:There was an attempt to copy a file from source to dest.:f1:f5:(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:32:14 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:34:27 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:35:55 2016:There was an attempt to create a file ->:f3:0:(null)
+2:Sun Dec 11 03:35:55 2016:filesystem succesfully closed: :os_fs_project:(null):(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:36:19 2016:There was an attempt to remove file->:f3:(null):(null)
+2:Sun Dec 11 03:36:25 2016:There was an attempt to create a file ->:f3:0:(null)
+3:Sun Dec 11 03:36:29 2016:There was an attempt to access file ->:f3:(null):(null)
+4:Sun Dec 11 03:36:36 2016:There was an attempt to remove file->:f3:(null):(null)
+5:Sun Dec 11 03:36:38 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:36:51 2016:There was an attempt to remove file->:f3:(null):(null)
+2:Sun Dec 11 03:36:57 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+3:Sun Dec 11 03:36:58 2016:There was an attempt to access file ->:f3:(null):(null)
+4:Sun Dec 11 03:37:27 2016:filesystem was force closed: :(null):(null):(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:37:45 2016:There was an attempt to remove file->:":(null):(null)
+2:Sun Dec 11 03:37:47 2016:There was an attempt to remove file->:\:(null):(null)
+3:Sun Dec 11 03:38:02 2016:filesystem succesfully closed: :os_fs_project:(null):(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:39:13 2016:filesystem succesfully closed: :os_fs_project:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:39:23 2016:There was an attempt to create a file ->:f1:100:(null)
+2:Sun Dec 11 03:39:24 2016:There was an attempt to create a file ->:f2:200:(null)
+3:Sun Dec 11 03:39:31 2016:There was an attempt to LINK a file from source to LINK.:f1:LF1:(null)
+4:Sun Dec 11 03:39:34 2016:There was an attempt to LINK a file from source to LINK.:f2:LF2:(null)
+5:Sun Dec 11 03:39:37 2016:There was an attempt to make a directory ->:d1:(null):(null)
+6:Sun Dec 11 03:39:38 2016:There was an attempt to make a directory ->:d2:(null):(null)
+7:Sun Dec 11 03:39:39 2016:filesystem succesfully closed: :os_f:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:40:04 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+Filesystem opened: os_fs_project 
+1:Sun Dec 11 03:40:13 2016:filesystem succesfully closed: :os_fs_project:(null):(null)
+Filesystem opened: os_fs 
+1:Sun Dec 11 03:40:21 2016:filesystem succesfully closed: :os_fs:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:40:44 2016:There was an attempt to copy a file from source to dest.:f1:f5:(null)
+2:Sun Dec 11 03:40:46 2016:There was an attempt to access file ->:f5:(null):(null)
+3:Sun Dec 11 03:40:50 2016:There was an attempt to access file ->:f1:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:51:41 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+2:Sun Dec 11 03:51:48 2016:There was an attempt to copy a file from source to dest.:f1:c:(null)
+3:Sun Dec 11 03:51:50 2016:There was an attempt to copy a file from source to dest.:f2:3:(null)
+4:Sun Dec 11 03:51:50 2016:filesystem succesfully closed: :os_f:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:52:07 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+2:Sun Dec 11 03:52:11 2016:There was an attempt to access file ->:f1:(null):(null)
+3:Sun Dec 11 03:52:12 2016:There was an attempt to access file ->:f3:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:54:35 2016:There was an attempt to copy a file from source to dest.:f1:f3:(null)
+2:Sun Dec 11 03:54:35 2016:filesystem succesfully closed: :os_f:(null):(null)
+Filesystem opened: os_f 
+Filesystem opened: os_f 
+1:Sun Dec 11 03:57:23 2016:There was an attempt to access statistics of file ->:f3:(null):(null)
+2:Sun Dec 11 03:57:23 2016:filesystem succesfully closed: :os_f:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:57:59 2016:There was an attempt to copy a file from source to dest.:f1:f5:(null)
+2:Sun Dec 11 03:57:59 2016:filesystem succesfully closed: :os_f:(null):(null)
+Filesystem opened: os_f 
+1:Sun Dec 11 03:58:20 2016:There was an attempt to copy a file from source to dest.:f1:f6:(null)
+Filesystem opened: os_f 
+Filesystem opened: os_f 
+1:Sun Dec 11 03:58:43 2016:There was an attempt to access statistics of file ->:f5:(null):(null)
+2:Sun Dec 11 03:58:43 2016:filesystem succesfully closed: :os_f:(null):(null)

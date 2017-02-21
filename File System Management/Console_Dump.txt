@@ -1,0 +1,249 @@
+Output record of filesystem project
+Irrelevant data inside the file has been commented out..
+
+boostmeister@kali:~/Desktop/OS_Group1$      make && ./fs_sim os_filesystem
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>help
+
+************************
+HELP(): List of commands
+************************
+Available Commands: 
+
+************************
+File functions
+************************
+create <filename> <size>: create a file of name 'filename' and 'size' bytes 
+cat <filename>: view the contents of the file 'filename'
+read <filename> <offset> <size>: read 'size' characters from 'filename', starting from 'offset'
+write <filename> <offset> <string>: write 'string' characters to 'filename' starting from 'offset'
+rm <filename>: remove a file
+stat <filename>: view statistics of the file 'filename'
+
+************************
+Directory functions
+************************
+mkdir <dirname>: create a directory named 'dirname'
+rmdir <dirname>: remove an empty directory
+cd <dirname>: change the working directory to dirname
+ls <-i for inodes> <dirname to list>: list the contents in the working directory OR in <dirname>
+df: access disk usage: view the occupied and unoccupied size
+
+************************
+Link functions
+************************
+ln <filename> <LINK_name>: create a link of name 'LINK_name' pointing to INODE of filename 
+
+Note: Using arrow keys to take input from previous/next input is not supported, if running in Linux!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+>create f1 4
+the generated random string was: 
+....
+File created: f1, inode 1, size 4
+
+>create c 31
+the generated random string was: 
+....
+File created: c, inode 2, size 31
+
+>ls
+name 		type		size(bytes)
+.               dir	  	   1 
+f1              file		   4 
+c               file		  31 
+
+>rm c       
+
+>create f2 10
+the generated random string was: 
+....
+File created: f2, inode 2, size 10
+
+>create f4 100
+the generated random string was: 
+....
+File created: f4, inode 3, size 100
+
+>rm f4
+
+>create f3 200
+the generated random string was: 
+....
+File created: f3, inode 3, size 200
+
+>create f4 1000
+the generated random string was: 
+....
+File created: f4, inode 4, size 1000
+
+>create f5 2000
+the generated random string was: 
+....
+File created: f5, inode 5, size 2000
+
+>create f6 3000 
+....
+File created: f6, inode 6, size 3000
+
+>create f7 5000
+the generated random string was: 
+....
+File created: f7, inode 7, size 5000
+
+>cat f1
+mhZT
+
+>write f1 0 AAB
+AABT
+
+>stat f7
+Inode = 7
+type = file
+owner = 1
+group = 2
+size = 5000
+num of block = 2
+Created time = 2016-12-10 17:19:34.047310Z
+Last accessed time = 2016-12-10 17:19:34.047310Z
+
+>ls
+name 	type	size(bytes)
+.               dir	  	   1 
+f1             file		   4 
+f2             file		  10 
+f3             file		 200 
+f4             file		1000 
+f5             file		2000 
+f6             file		3000 
+f7             file		5000 
+
+>mkdir d1   
+Directory created: d1, inode 8, size 1
+
+>mkdir d2
+Directory created: d2, inode 9, size 1
+
+>ls -i
+name 	type	inode	size(bytes)
+.               dir	  	 0 	 	   1 
+f1             file		 1 		   4 
+f2             file		 2 		  10 
+f3             file		 3 		 200 
+f4             file		 4 		1000 
+f5             file		 5 		2000 
+f6             file		 6 		3000 
+f7             file		 7 		5000 
+d1            dir	  	 8 		   1 
+d2            dir	  	 9 	  	   1 
+L1            link		 10 		   1 
+L2            link		 11 	  	   1 
+
+>cd d1
+>create d1f1 100
+the generated random string was: 
+....
+File created: d1f1, inode 12, size 100
+
+>create d1f2 400
+the generated random string was: 
+....
+File created: d1f2, inode 13, size 400
+
+>create d1f3 7000
+the generated random string was: 
+....
+File created: d1f3, inode 14, size 7000
+
+>cd ..
+
+>cd d2
+
+>create d2f1 60000
+File create error: size too much.
+
+>create d2f1 9000
+the generated random string was: 
+....
+File created: d2f1, inode 15, size 9000
+
+>ls
+name 	type	size(bytes)
+.               dir	  	   1 
+..              dir	  	   1 
+d2f1         file		9000 
+
+>cd ..
+
+>ls d1
+name 	type	size(bytes)
+.               dir	  	   1 
+..              dir	  	   1 
+d1f1         file		 100 
+d1f2         file		 400 
+d1f3         file		7000 
+
+>ls
+name 		type		size(bytes)
+.               dir	  	   1 
+f1              file		   4 
+f2              file		  10 
+f3              file		 200 
+f4              file		1000 
+f5              file		2000 
+f6              file		3000 
+f7              file		5000 
+d1              dir	  	   1 
+d2              dir	  	   1 
+L1              link		   1 
+L2              link		   1 
+
+
+>ln f1 L1
+Link created: L1, inode 10, size 1
+
+>ln f4 L2
+Link created: L2, inode 11, size 1
+
+>ln d1 L3
+Cannot create link: It is a directory'
+
+>write L2 0 11
+Cannot call 'write' on a non-file inode
+
+>rmdir d2
+Directory remove error: The directory has files in it. Cannot remove
+
+>cd d2
+
+>rm d2f1
+
+>cd ..
+
+>rmdir d2
+
+>ls
+name 	type	size(bytes)
+.               dir	  	   1 
+f1             file		   4 
+f2             file		  10 
+f3             file		 200 
+f4             file		1000 
+f5             file		2000 
+f6             file		3000 
+f7             file		5000 
+d1            dir	  	   1 
+L1            link		   1 
+L2            link		   1 
+
+>df
+File System Status: 
+# of free blocks: 4062 (16637952 bytes)
+# of free inodes: 498
+
+>^C
+./fs_sim was killed with exit status -1 
+
